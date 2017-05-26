@@ -1,0 +1,8 @@
+server:
+  port: 7788
+spring:
+  application:
+    name: config-client
+
+# 当本地和远程冲突的时候，使用远程的连接
+# profile: kkkkkkkk

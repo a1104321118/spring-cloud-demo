@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      uri: http://user:123@localhost:7787 # 配置加密的config-server curl style
+      label: master
+      profile: dev
+      name: config-client
+#      username: user 普通方式
+#      password: 132
+
+# 加载顺序
+# 1.先加载  bootstrap.* 的配置
+# 2.连接 config-server 加载远程配置
+# 3.最后加载 application.* 的配置
+
+# 一般在该文件中配置 不会改动的配置
