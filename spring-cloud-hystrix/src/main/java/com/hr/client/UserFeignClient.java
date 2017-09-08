@@ -15,9 +15,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 //@FeignClient(name = "user-provider", fallback = UserFeignFallback.class)
 public interface UserFeignClient {
 
-    // @GetMapping("/simple/{id}") 这个注解 Feign 不支持
-    // User findById(@PathVariable Integer id); @PathVariable 必须注明 value
-
     @RequestMapping(value = "/simple/{id}", method = RequestMethod.GET)
     User findById(@PathVariable("id") Integer id);
 }

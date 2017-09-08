@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Created by hr on 2017/5/15.
  */
-@FeignClient("user-provider")
+@FeignClient(value = "user-provider")
 public interface UserFeignClient {
 
     // @GetMapping("/simple/{id}") 这个注解 Feign 不支持

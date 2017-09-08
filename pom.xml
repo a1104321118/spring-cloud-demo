@@ -30,6 +30,7 @@
 		<module>spring-cloud-config-server</module>
 		<module>spring-cloud-config-client</module>
 		<module>spring-cloud-config-server-encrypt</module>
+		<module>spring-cloud-zipkin-server</module>
 	</modules>
 
 	<properties>
