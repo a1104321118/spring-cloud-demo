@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="false">
 
-    <property name="LOG_FILE" value="spring-cloud-demo.log" />
+    <property name="LOG_FILE" value="cloud-consumer.log" />
 
 
 
